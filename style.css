@@ -1,4 +1,4 @@
-/* navbar styling*/
+/* Setting up navbar */
 a.navbar-brand{
     margin-left: 10px;
     padding: 10px;
@@ -8,42 +8,7 @@ a.navbar-brand{
     font-size: 25px;
 }
 
-/* header styling*/
-h3{
-    color: rgb(74, 170, 165);
-    font-family: Georgia;
-    font-weight: bold;
-    padding: 15px;
-}
-
-/* image styling*/
-.img-thumbnail{
-    padding:10px;
-    border: none;
-}
-
-/* fontstyling for text*/
-p{
-   font-family: Arial;
-   font-size: large;
-   padding:10px;
-}
-
-/* body background*/
-body{
-    background-color: rgb(237, 237, 237);
-}
-.col-md-12{
-    background-color: white;
-    padding-top: 20px;
-    padding-bottom:40px;
-}
-
-/* image border styling*/
-.pic{
-    border: 3px solid rgb(74, 170, 165);
-}
-/* navbar styling*/
+/* Setting up navbar formatting */
 .navbar{
     padding-top:0px;
     padding-bottom: 0px;
@@ -58,7 +23,36 @@ body{
     margin: 0;
 }
 
-/* content styling*/
+/* Setting up header */
+h3{
+    color: rgb(74, 170, 165);
+    font-family: Georgia;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* Setting up image thumbnails */
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+/* Setting up body background */
+body{
+    background-color: rgb(237, 237, 237);
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+/* Setting up image borders */
+.pic{
+    border: 3px solid rgb(74, 170, 165);
+}
+
+/* Setting up content formatting */
 .content {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -70,7 +64,7 @@ body{
 }
 
 
-/* table text adjustments*/
+/* Setting up table formatting */
 tr>th:nth-child(1),
 tr>th:nth-child(3),
 tr>th:nth-child(6),
@@ -89,7 +83,7 @@ tr>td:nth-child(10) {
 }
 
 
-/* small screen adjustments*/
+/* Setting up small screen formatting */
 @media(max-width:767px){
     .navbar.bg-light{
         background-color: rgb(74, 170, 165)!important;    
